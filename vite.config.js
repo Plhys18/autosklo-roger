@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     UnoCSS()
   ],
+  base: '/autosklo-roger/',
 })
