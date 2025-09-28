@@ -55,7 +55,10 @@ export default defineConfig({
     },
     fontFamily: {
       sans: ['Inter', 'system-ui', 'sans-serif'],
-      heading: ['Poppins', 'sans-serif'],
+      heading: ['Orbitron', 'sans-serif'],
+      display: ['Exo 2', 'sans-serif'],
+      modern: ['Rajdhani', 'sans-serif'],
+      tech: ['Titillium Web', 'sans-serif'],
       mono: ['JetBrains Mono', 'monospace']
     },
     boxShadow: {
@@ -71,7 +74,7 @@ export default defineConfig({
     'btn-accent': 'bg-accent-500 hover:bg-accent-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg',
     'card-automotive': 'bg-white rounded-xl shadow-automotive border border-secondary-300 p-6',
     'glass-effect': 'backdrop-blur-md bg-white/10 border border-white/30 rounded-xl',
-    'heading-primary': 'font-heading font-bold text-secondary-900',
+    'heading-primary': 'font-heading font-bold text-secondary-900 tracking-wide',
     'text-automotive': 'text-secondary-700 leading-relaxed font-medium',
     'text-high-contrast': 'text-secondary-900 font-semibold',
     'link-contrast': 'text-primary-700 hover:text-primary-800 font-medium'

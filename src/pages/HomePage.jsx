@@ -19,12 +19,14 @@ const HomePage = () => {
                 <span className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium mb-6">
                   ✨ Nová pobočka v Brně od 22.7.2024
                 </span>
-                <h1 className="heading-primary text-5xl md:text-6xl lg:text-7xl text-white mb-6 text-shadow-automotive">
-                  AutoskloRoger
-                  <span className="block text-4xl md:text-5xl lg:text-6xl text-primary-200 font-medium">
+                <div className="mb-6">
+                  <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-white mb-2 font-black tracking-wider drop-shadow-2xl leading-tight">
+                    AutoskloRoger
+                  </h1>
+                  <div className="font-tech text-3xl md:text-4xl lg:text-5xl text-primary-200 font-bold tracking-widest drop-shadow-xl">
                     s.r.o.
-                  </span>
-                </h1>
+                  </div>
+                </div>
                 <p className="text-xl lg:text-2xl text-white/90 mb-8 leading-relaxed">
                   Profesionální prodej, výměna a opravy autoskel ve
                   <span className="font-semibold text-primary-200"> 7 městech</span> České republiky.
@@ -54,29 +56,29 @@ const HomePage = () => {
               </div>
 
               {/* Key highlights */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="glass-morphism p-4 rounded-lg border border-white/30 bg-white/5">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="bg-white/30 backdrop-blur-md p-3 rounded-xl border-2 border-white/60 shadow-xl min-h-20 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-white mb-1">7</div>
-                    <div className="text-white/90 text-sm font-medium">Poboček</div>
+                    <div className="text-2xl font-black text-white drop-shadow-lg leading-none">7</div>
+                    <div className="text-white text-xs font-bold drop-shadow-md leading-none">Poboček</div>
                   </div>
                 </div>
-                <div className="glass-morphism p-4 rounded-lg border border-white/30 bg-white/5">
+                <div className="bg-white/30 backdrop-blur-md p-3 rounded-xl border-2 border-white/60 shadow-xl min-h-20 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-lg font-bold text-white mb-1">600-2000 Kč</div>
-                    <div className="text-white/90 text-sm font-medium">Oprava skla</div>
+                    <div className="text-sm font-black text-white drop-shadow-lg leading-none">600-2000</div>
+                    <div className="text-white text-xs font-bold drop-shadow-md leading-none">Kč oprava</div>
                   </div>
                 </div>
-                <div className="glass-morphism p-4 rounded-lg border border-white/30 bg-white/5">
+                <div className="bg-white/30 backdrop-blur-md p-3 rounded-xl border-2 border-white/60 shadow-xl min-h-20 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-white mb-1">Mobilní</div>
-                    <div className="text-white/90 text-sm font-medium">Servis</div>
+                    <div className="text-lg font-black text-white drop-shadow-lg leading-none">Mobilní</div>
+                    <div className="text-white text-xs font-bold drop-shadow-md leading-none">Servis</div>
                   </div>
                 </div>
-                <div className="glass-morphism p-4 rounded-lg border border-white/30 bg-white/5">
+                <div className="bg-white/30 backdrop-blur-md p-3 rounded-xl border-2 border-white/60 shadow-xl min-h-20 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-white mb-1">Pojišťovny</div>
-                    <div className="text-white/90 text-sm font-medium">Řešíme za vás</div>
+                    <div className="text-sm font-black text-white drop-shadow-lg leading-none">Pojišťovny</div>
+                    <div className="text-white text-xs font-bold drop-shadow-md leading-none">řešíme</div>
                   </div>
                 </div>
               </div>
@@ -141,10 +143,10 @@ const HomePage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="heading-primary text-3xl md:text-4xl mb-4">
+            <h2 className="font-display text-3xl md:text-4xl mb-4 font-bold text-secondary-900 tracking-wide">
               Naše hlavní služby
             </h2>
-            <p className="text-automotive text-lg">
+            <p className="font-modern text-lg text-secondary-700 font-medium tracking-wide">
               Rychlý přehled toho, co pro vás můžeme udělat
             </p>
           </div>
@@ -155,7 +157,7 @@ const HomePage = () => {
                 <div className="w-20 h-20 bg-gradient-automotive rounded-full mx-auto mb-6 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform shadow-lg">
                   🔧
                 </div>
-                <h3 className="heading-primary text-2xl mb-4 text-secondary-900">Opravy čelních skel</h3>
+                <h3 className="font-display text-2xl mb-4 text-secondary-900 font-bold tracking-wide">Opravy čelních skel</h3>
                 <p className="text-automotive mb-6 text-lg leading-relaxed">GLASS REPAIR systém pro rychlé opravy prasklin a úderů</p>
                 <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6">
                   <div className="text-primary-800 font-bold text-xl">600 - 2,000 Kč</div>
@@ -172,7 +174,7 @@ const HomePage = () => {
                 <div className="w-20 h-20 bg-gradient-automotive rounded-full mx-auto mb-6 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform shadow-lg">
                   🛡️
                 </div>
-                <h3 className="heading-primary text-2xl mb-4 text-secondary-900">Pojistné události</h3>
+                <h3 className="font-display text-2xl mb-4 text-secondary-900 font-bold tracking-wide">Pojistné události</h3>
                 <p className="text-automotive mb-6 text-lg leading-relaxed">Kompletní řešení s pojišťovnami a vyřízení škody</p>
                 <div className="bg-accent-50 border border-accent-200 rounded-lg p-4 mb-6">
                   <div className="text-accent-800 font-bold text-xl">Často zdarma</div>
@@ -189,7 +191,7 @@ const HomePage = () => {
                 <div className="w-20 h-20 bg-gradient-automotive rounded-full mx-auto mb-6 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform shadow-lg">
                   🚗
                 </div>
-                <h3 className="heading-primary text-2xl mb-4 text-secondary-900">Mobilní servis</h3>
+                <h3 className="font-display text-2xl mb-4 text-secondary-900 font-bold tracking-wide">Mobilní servis</h3>
                 <p className="text-automotive mb-6 text-lg leading-relaxed">Přijedeme kamkoliv potřebujete v rámci ČR</p>
                 <div className="bg-secondary-50 border border-secondary-200 rounded-lg p-4 mb-6">
                   <div className="text-secondary-800 font-bold text-xl">Celá ČR</div>
