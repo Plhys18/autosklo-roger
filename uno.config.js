@@ -55,10 +55,11 @@ export default defineConfig({
     },
     fontFamily: {
       sans: ['Inter', 'system-ui', 'sans-serif'],
-      heading: ['Orbitron', 'sans-serif'],
-      display: ['Exo 2', 'sans-serif'],
-      modern: ['Rajdhani', 'sans-serif'],
-      tech: ['Titillium Web', 'sans-serif'],
+      heading: ['Montserrat', 'sans-serif'],
+      display: ['Roboto', 'sans-serif'],
+      modern: ['Open Sans', 'sans-serif'],
+      tech: ['Lato', 'sans-serif'],
+      classic: ['Poppins', 'sans-serif'],
       mono: ['JetBrains Mono', 'monospace']
     },
     boxShadow: {

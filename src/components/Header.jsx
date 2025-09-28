@@ -26,10 +26,10 @@ const Header = () => {
               <div className="text-white font-bold text-xl">AR</div>
             </div>
             <div>
-              <div className="font-heading text-xl lg:text-2xl text-gradient-automotive font-bold tracking-wider">
+              <div className="font-heading text-lg lg:text-xl text-gradient-automotive font-bold tracking-wide">
                 AutoskloRoger
               </div>
-              <div className="text-primary-600 text-sm font-tech font-medium tracking-wide">
+              <div className="text-primary-600 text-xs font-tech font-medium tracking-wide">
                 s.r.o.
               </div>
             </div>
